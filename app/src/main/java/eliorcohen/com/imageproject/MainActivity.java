@@ -235,8 +235,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void getTextRGBMethod(TreeMap<Integer, Integer> prodTreeMapRGB, int num1, int num2, int num3, TextView textRGB) {
-        textRGB.setText("R:" + prodTreeMapRGB.values().toArray()[num1]
-                + " G:" + prodTreeMapRGB.values().toArray()[num2] + " B:" + prodTreeMapRGB.values().toArray()[num3]);
+        textRGB.setText("R:" + prodTreeMapRGB.values().toArray()[num1] +
+                " G:" + prodTreeMapRGB.values().toArray()[num2] +
+                " B:" + prodTreeMapRGB.values().toArray()[num3]);
     }
 
     private void getPercentMethod(double percentage, int sum, TextView textPercent) {
